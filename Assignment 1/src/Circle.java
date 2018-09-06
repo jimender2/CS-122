@@ -44,7 +44,7 @@ public class Circle {
 	 * This function, if called, returns the radius that was previously set.
 	 */
 	public double getRadius() {
-		return rad
+		return rad;
 	}
 
 	/**
@@ -59,7 +59,7 @@ public class Circle {
 	 * This function, if called, returns the area of a circle. It is calculated
 	 * from the previously set radius.
 	 */
-	public double getDiameter() {
+	public double getArea() {
 		return (rad * 2);
 	}
 }
