@@ -60,6 +60,6 @@ public class Circle {
 	 * from the previously set radius.
 	 */
 	public double getArea() {
-		return (rad * 2);
+		return ((rad * rad) * Math.PI);
 	}
 }
