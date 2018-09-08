@@ -20,7 +20,7 @@ public class Circle {
 	
 	/**
 	 * This constructor, if called, initializes the value of the radius to be
-	 * the double passed into it.
+	 * the value of the double passed into it.
 	 */
 	public Circle(double rad) {
 		radius = rad;
@@ -30,8 +30,8 @@ public class Circle {
 	}
 	
 	/**
-	 * This constructor, if called, initializes the value of the radius to be
-	 * the value of the string that is passed into the constructor.
+	 * This constructor, if called, initializes the value of the radius
+	 * to be the value of the string that is passed into the constructor.
 	 */
 	public Circle(String rad) {
 		radius = Integer.parseInt(rad);
@@ -42,30 +42,37 @@ public class Circle {
 	
 	/**
 	 * This function, if called, returns the radius that was previously set.
+	 * @return The radius of the circle
 	 */
 	public double getRadius() {
 		return radius;
 	}
-
+	
+	
 	/**
 	 * This function, if called, returns the diameter calculated from the 
 	 * previously set radius.
+	 * @return The Diameter of the circle
 	 */
 	public double getDiameter() {
 		return (radius * 2);
 	}
 	
+	
 	/**
-	 * This function, if called, returns the circumference calculated from the 
-	 * previously set radius.
+	 * This function, if called, returns the circumference calculated from
+	 * the previously set radius.
+	 * @return The Circumference of the circle
 	 */
 	public double getCircumference() {
 		return (2 * Math.PI * radius);
 	}
 	
+	
 	/**
-	 * This function, if called, returns the area of a circle. It is calculated
-	 * from the previously set radius.
+	 * This function, if called, returns the area of a circle. It is
+	 * calculated from the previously set radius.
+	 * @return The area of a circle
 	 */
 	public double getArea() {
 		return ((radius * radius) * Math.PI);
