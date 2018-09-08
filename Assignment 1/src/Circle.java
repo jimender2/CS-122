@@ -21,6 +21,7 @@ public class Circle {
 	/**
 	 * This constructor, if called, initializes the value of the radius to be
 	 * the value of the double passed into it.
+	 * @param rad The value to store in the radius
 	 */
 	public Circle(double rad) {
 		radius = rad;
@@ -32,6 +33,7 @@ public class Circle {
 	/**
 	 * This constructor, if called, initializes the value of the radius
 	 * to be the value of the string that is passed into the constructor.
+	 * @param rad The value to store in the radius
 	 */
 	public Circle(String rad) {
 		radius = Integer.parseInt(rad);
